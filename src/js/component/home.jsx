@@ -124,6 +124,7 @@ const Home = () => {
             await eliminarToDo(item.id);
         }
         setToDoList([]);
+        eliminarUsuario();
     }
 
     async function fetchData() {
